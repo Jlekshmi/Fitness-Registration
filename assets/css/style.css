@@ -1,0 +1,32 @@
+.invalid-feedback {
+    display: block;
+}
+
+.form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+
+    opacity: 0.5;
+    /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    opacity: 0.5;
+}
+
+.form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    opacity: 0.5;
+}
+
+.bg {
+    background-image: url("../images/bg.jpg");
+    /* Image taken from https://www.westrive.com/blog/whats-the-best-way-to-maintain-a-quality-gym-environment */
+    background-size: cover;
+}
+
+.hero-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
